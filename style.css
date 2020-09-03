@@ -1,0 +1,99 @@
+.nav
+{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+	list-style-type: none;
+}
+.nav a
+{
+	float: left;
+	text-align: center;
+	color: white;
+	padding: 14px 16px;
+	display: block;
+	text-decoration: none;
+}
+.nav a:hover
+{
+	background-color: green;
+}
+
+
+/*----------------------------------------Banner-----------------------------------------------------------*/
+.mySlides
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+	width: 100%;
+	height: 300px;  
+	background-position: center;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text
+{
+	position: absolute;
+    top: 40%;
+    left: 45%;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+.mySlides .text .sub
+{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+/*-----------------------------------Text Code-----------------------------------*/
+.code
+{
+	text-align: center;
+
+}
+.text2
+{
+	padding: 25px 50px 25px 25px;
+}
+
+/*--------------------------------Grid Image Column-----------------------------------*/
+.column
+{
+	float: left;
+	width: 40%;
+	padding: 25px 50px 25px 25px;
+}
+.column img
+{
+	margin-top:12px;
+	margin-left: 10px;
+	height: 300px;
+	width: 110%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*---------------------------------Footer Section---------------------------------------------*/
+
+.footer-bot
+{
+  
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 200px;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+.bottom-txt
+{
+	padding: 40px 50px 35px 25px;
+}
